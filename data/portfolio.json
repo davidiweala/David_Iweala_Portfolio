@@ -1,0 +1,89 @@
+{
+    "name": "David",
+    "headerTaglineOne": "Hello 😁",
+    "headerTaglineTwo": "I'm David Iweala - aspiring ",
+    "headerTaglineThree": "Site Reliability Engineer",
+    "headerTaglineFour": " based in Lagos State, Nigeria.",
+    "showCursor": true,
+    "showBlog": true,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/davidiweala"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/david-iweala/"
+        },
+        {
+            "id": "3",
+            "title": "WhatsApp",
+            "link": "https://wa.me/2349061341499"
+        },
+        {
+            "id": "4",
+            "title": "Blog",
+            "link": "https://blog.chetanverma.com/"
+        },
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:iwealadavid@gmail.com"
+        }
+    ],
+    "aboutpara": "Developed critical skills in a high-demand technical environment, focusing on network systems and cloud infrastructure. Demonstrated ability to troubleshoot complex issues and optimize system performance. Currently looking to transition into a new field (Site Reliability Engineering) where these technical and problem-solving skills can make a significant impact.",
+    "resume": {
+        "tagline": "👋  I'm an aspiring Site Reliability Engineer.",
+        "description": "I have developed critical skills in a high-demand technical environment, focusing on network systems and cloud infrastructure. Demonstrated ability to troubleshoot complex issues and optimize system performance. Currently looking to transition into a new field (Site Reliability Engineering) where these technical and problem-solving skills can make a significant impact.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "July 2023 - Present",
+                "type": "Full Time",
+                "position": "Application Infrastrucuture Engineer at Zenith Bank Plc",
+                "bullets": " Successfully led and migrated mobile banking application servers from windows to Linux leading to over 90% uptime of the mobile application , Worked with the team on the migration to the new core banking application of the bank , Manage and monitor electronic banking channels (USSD Mobile App Corporate and Retail banking Internet Banking SMS service) leading to restoration of failed services within a short period of time , Monitoring the health of each channel using Dynatrace and Grafana ensuring an uptime percentage of over 85% per day , Resolution of over 4000 users affected by licensing and email issues on Office 365 , Troubleshooting application failures by reading and interpreting logs , Provide Microsoft Office 365 Active Directory MS Exchange and Azure support , Solving teammate issues logged onto the Service Desk within specified SLA periods , Maintaining technical documents for each product/channel (document contains architecture diagram data/process flow application dependencies issue & resolution list and FAQs)"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "May 2023 - July 2023",
+                "type": "Full Time",
+                "position": "Graduate Trainee at Meristem Securities Limited",
+                "bullets": " Maintaining solid relationships with clients through customer service and delivery , Gathering as much information on the company and participating in on-the-job training wherever possible , Participating in meetings workshops and team-building event , Compiling reports and making presentations to other staff members , Analyzing existing systems and offering new ideas for improvement , Conducting research and assisting the Manager or Supervisor wherever possible"
+            },
+            {
+                "id": "6b5fcf97-9def-40b2-a1b9-84239d1610b5",
+                "dates": "January 2022 - February 2023",
+                "type": "Full Time",
+                "position": "DevOps Engineer Intern at Tramango Limited",
+                "bullets": " Worked with public cloud services and infrastructure provisioning using AWS  Improved cloud systems functionality with automation and configuration management , Designed developed and implemented full-stack web development tools and technologies in a team-based environment , Worked on new products and updated functionality of existing software systems , Managed and maintained Netlify deployments AWS instances and Heroku deployments"
+            }
+        ],
+        "education": {
+            "universityName": "Covenant University",
+            "universityDate": "2016-2021",
+            "universityPara": "Bachelor's of Engineering (B.Eng) in Computer Engineering"
+        },
+        "languages": [
+            "Incident management",
+            "System administration",
+            "Continuous improvement",
+            "Task prioritization"
+        ],
+        "frameworks": [
+            "Application administration",
+            "Technical support and assistance",
+            "Architecture review",
+            "Infrastructure development"
+        ],
+        "others": [
+            "Technology integration",
+            "Performance monitoring and tuning",
+            "Linux and unix administration",
+            "Windows server administration"
+        ]
+    }
+}
