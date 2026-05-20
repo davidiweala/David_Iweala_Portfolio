@@ -15,7 +15,7 @@ export const SendEmail = async (formdata: FormData) => {
     };
   }
   await resend.emails.send({
-    from: "Contact Form <onboarding@resend.dev>",
+    from: "Contact Form <iwealadavid.netlify.app>",
     to: `iwealadavid@gmail.com`,
     subject: `${name} From Contact Form.`,
     reply_to: `${SenderEmail}`,
