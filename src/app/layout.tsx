@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: portfolioConfig.name,
     description: portfolioConfig.description,
     images: [`${portfolioConfig.seo.url}/og-image.png`],
-    creator: portfolioConfig.seo.twitterHandle,
+    creator: portfolioConfig.seo.instagramHandle,
   },
   icons: {
     icon: "/favicon.ico",
