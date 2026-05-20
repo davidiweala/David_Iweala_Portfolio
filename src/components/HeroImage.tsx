@@ -1,4 +1,4 @@
-import logo from "../../public/david_iweala.png";
+import logo from "../../public/david_iweala.jpg";
 import Image from "next/image"
 
 const HeroImage = ()  => {
