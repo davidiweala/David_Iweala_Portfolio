@@ -21,8 +21,8 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
+    ogImage: "https://iwealadavid.netlify.app/og-image.png",
+    url: "https://iwealadavid.netlify.app/",
     instagramHandle: "@davidiweala_",
     linkedinHandle: "david-iweala",
     substackHandle: "davidiweala",

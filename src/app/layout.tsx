@@ -18,6 +18,9 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "7eX_PguUotnmmDfqfJVQIVpiB6b6DVUhhPpgb-JOyzE",
+  },
   metadataBase: new URL(portfolioConfig.seo.url),
   title: {
     default: portfolioConfig.name,
@@ -49,6 +52,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+
 };
 
 export default function RootLayout({
