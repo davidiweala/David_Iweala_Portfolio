@@ -17,8 +17,8 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          {portfolioConfig.title} And Web <br /> Developer, Based In{" "}
-          {portfolioConfig.about.personalInfo.nationality}.
+          {portfolioConfig.title}, <br /> Based In{" "}
+          {portfolioConfig.about.personalInfo.nation}
         </Heading>
 
         <FramerWrapper y={0} x={100}>

@@ -11,19 +11,19 @@ export default function Home() {
     <>
       {/* LEFT SIDE  */}
       <FramerWrapper
-        className=" h-full w-auto flex flex-col justify-start gap-4"
+        className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center gap-4 text-center lg:text-left"
         y={0}
         x={-100}
       >
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-4">
-          <SocialLinks />
+        <div className="w-full flex gap-4 justify-center lg:justify-start p-4">          
+        <SocialLinks />
         </div>
         <DownLoadResumeBtn />
       </FramerWrapper>
       {/* RIGHT SIDE image  */}
       <FramerWrapper
-        className="h-full w-[47%] relative block   max-lg:hidden"
+        className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 relative flex items-center justify-center"
         y={0}
         x={100}
       >

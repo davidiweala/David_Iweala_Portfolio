@@ -35,6 +35,7 @@ const educationPage = () => {
               <div className="text-2xl font-rubik max-sm:text-xl">
                 {edu.degree}, <br /> {edu.institution}
               </div>
+              
               <p className="font-poppins text-base w-full text-primary max-sm:text-xs">
                 {edu.description}
               </p>
