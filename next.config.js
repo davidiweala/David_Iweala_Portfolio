@@ -1,18 +1,9 @@
+const { Resend } = require('resend')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental:{
-        serverComponentsExternalPackages: [
-            '@react-email/render',
-        ],
-        // images:{
-        //     remotePatterns:[
-        //         {
-        //             protocol: 'https',
-        //             hostname: 'cdn.jsdelivr.net',
-        //         }
-        //     ]
-        // }
-    }
+  serverExternalPackages: ['resend'],  // moved out of experimental
+
 }
 
 module.exports = nextConfig
