@@ -15,7 +15,7 @@ export const portfolioConfig = {
     facebook: "https://www.facebook.com/david.iweala/",
     twitter: "https://x.com/iwealadavidd",
     linkedin: "https://www.linkedin.com/in/david-iweala",
-    external: "https://tinyurl.com/DavidIweala",
+    external: "https://davidiweala.substack.com/",
     github: "https://github.com/davidiweala", // Assuming this is the GitHub link
   },
 
@@ -206,6 +206,12 @@ export const portfolioConfig = {
   // More Links Information
   moreLinks: [
     {
+      title: "What I've Learned Researching Agriculture",
+      description:
+        "Three years of studying the gap between the technology we have and the farmers who need it most, and why that gap matters more than anything else.",
+      link: "https://open.substack.com/pub/davidiweala/p/what-ive-learned-researching-agriculture?r=2zpkax&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+    },
+     {
       title: "Why I Started Thinking About Agri-Tech",
       description:
         "Technology has transformed industries across the world, yet agriculture, one of the most important sectors for human survival, still faces major inefficiencies, especially in emerging markets.",
