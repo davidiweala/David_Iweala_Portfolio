@@ -8,7 +8,7 @@ const HeroImage = ()  => {
     return(
         <>
           <Image
-          src={logo}
+          src="/david_iweala.png"
           alt="logo"
           loading="eager"
           priority
