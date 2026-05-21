@@ -22,7 +22,7 @@ export const portfolioConfig = {
   // SEO Information
   seo: {
     ogImage: "https://iwealadavid.netlify.app/og-image.png",
-    url: "https://iwealadavid.netlify.app/",
+    url: "https://iwealadavid.netlify.app",
     instagramHandle: "@davidiweala_",
     linkedinHandle: "david-iweala",
     substackHandle: "davidiweala",
