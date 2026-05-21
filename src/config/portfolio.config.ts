@@ -26,6 +26,7 @@ export const portfolioConfig = {
     instagramHandle: "@davidiweala_",
     linkedinHandle: "david-iweala",
     substackHandle: "davidiweala",
+    google: "7eX_PguUotnmmDfqfJVQIVpiB6b6DVUhhPpgb-JOyzE",
     researchgateHandle: "david-iweala",
     keywords: [
       "David",
