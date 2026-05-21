@@ -8,27 +8,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/`,
       lastModified: new Date(),
-      priority: 1.0,
     },
     {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/projects`,
       lastModified: new Date(),
-        priority: 0.8,
     },
      {
       url: `${baseUrl}/education`,
       lastModified: new Date(),
-        priority: 0.8,
     },
      {
       url: `${baseUrl}/skills`,
       lastModified: new Date(),
-        priority: 0.8,
     },
     {
       url: `${baseUrl}/contact`,
@@ -37,8 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/more`,
       lastModified: new Date(),
-      changeFrequency: "daily",
-        priority: 1.0,
     },
   ];
 }
