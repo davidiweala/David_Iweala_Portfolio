@@ -62,6 +62,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <meta name="google-site-verification" content="7eX_PguUotnmmDfqfJVQIVpiB6b6DVUhhPpgb-JOyzE" />
       <body suppressHydrationWarning className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
