@@ -20,10 +20,10 @@ const morePage = () => {
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <PackagePlus className="h-4 w-4" />
-        More
+        Blog
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>More</Heading>
+        <Heading>Blog</Heading>
       </div>
       <div className="h-auto w-full flex flex-wrap gap-3 p-2">
         {portfolioConfig.moreLinks.map((value, indx) => {
