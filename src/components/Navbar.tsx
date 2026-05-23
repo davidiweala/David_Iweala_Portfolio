@@ -65,14 +65,14 @@ const Navbar = () => {
       icon: (
         <Mail className='h-full w-full ' />
       ),
-      href: '/contact',
+      href: '/services',
     },
     {
       title: 'Blog',
       icon: (
         <MoreHorizontal className='h-full w-full ' />
       ),
-      href: '/more',
+      href: '/blog',
     },
   ];
   const [scrolling, setScrolling] = useState(false);

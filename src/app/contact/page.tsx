@@ -1,28 +1,30 @@
-import ContactForm from "@/components/ContactForm";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
+import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
-import { Phone } from "lucide-react";
+import { Layers } from "lucide-react";
+import { portfolioConfig } from "@/config/portfolio.config";
 
-const contactPage = () => {
+const projectsPage = () => {
   return (
     // PROJECT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
-        <Phone className="h-4 w-4" />
-        Contact Us
+        <Layers className="h-4 w-4" />
+        Services
       </Badge>
-      <div className="flex flex-col gap-3 w-full">
-        <Heading>Contact Me!</Heading>
-        <div className="h-auto w-full flex justify-center items-center">
-          <FramerWrapper y={0} scale={0.8}>
-            <ContactForm />
-          </FramerWrapper>
-        </div>
-        <p className=" font-poppins text-lg w-full text-primary max-sm:text-base"></p>
+      <div className="flex flex-col gap-3">
+        <Heading>My Services</Heading>
+        
+      </div>
+
+      <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
+        {portfolioConfig.services.map((val, indx) => {
+          return <ProjectCards key={indx} value={val} num={indx} />;
+        })}
       </div>
     </div>
   );
 };
 
-export default contactPage;
+export default projectsPage;
