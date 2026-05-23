@@ -64,11 +64,19 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <meta name="google-site-verification" content="7eX_PguUotnmmDfqfJVQIVpiB6b6DVUhhPpgb-JOyzE" />
       <body suppressHydrationWarning className={`${poppins.variable} ${rubik.variable}`}>
-        <main
+        {/* <main
           className={cn(
             "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
             { "bg-white": "#E6E7EB" }
           )}
+        > /*/}
+          <main
+        className={cn(
+          "flex flex-col lg:flex-row relative break-words min-h-screen items-center justify-between",
+          "pt-20 pb-4 px-4 sm:px-8 md:px-16 lg:px-40",
+          "bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
+          { "bg-white": "#E6E7EB" }
+        )}
         >
           {/* NAVBAR ->  */}
           <Navbar />
