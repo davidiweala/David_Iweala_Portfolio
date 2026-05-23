@@ -61,14 +61,14 @@ const Navbar = () => {
     },
    
     {
-      title: 'Contact us',
+      title: 'Services',
       icon: (
         <Mail className='h-full w-full ' />
       ),
       href: '/contact',
     },
     {
-      title: 'More',
+      title: 'Blog',
       icon: (
         <MoreHorizontal className='h-full w-full ' />
       ),

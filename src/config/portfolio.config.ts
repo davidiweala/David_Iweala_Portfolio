@@ -204,6 +204,17 @@ export const portfolioConfig = {
     
   ],
 
+  services: [
+    {
+      title: "Web Development Services",
+      description:
+        "Professional web development services to create responsive, user-friendly websites and applications.",
+      tags: ["Web Development", "SEO", "Responsive Design"],
+      link: "wa.me/15023454733",
+    },
+    
+  ],
+
   // More Links Information
   moreLinks: [
     {
