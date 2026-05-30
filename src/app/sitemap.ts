@@ -26,11 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/services`,
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/more`,
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
     },
   ];

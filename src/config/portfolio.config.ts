@@ -210,7 +210,7 @@ export const portfolioConfig = {
       description:
         "Professional web development services to create responsive, user-friendly websites and applications.",
       tags: ["Web Development", "SEO", "Responsive Design"],
-      link: "https://wa.me/message/VKNWEZQE5IFWP1",
+      link: "https://wa.me/message/RG7ISB2Y4U3ZF1",
     },
     
   ],
