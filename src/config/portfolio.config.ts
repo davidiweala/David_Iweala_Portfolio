@@ -217,6 +217,12 @@ export const portfolioConfig = {
 
   // More Links Information
   moreLinks: [
+     {
+      title: "How AI Could Transform Farming in Africa",
+      description:
+        "What the continent needs, what its citizens need, what its farmers have always needed, is not charity or pity.",
+      link: "https://open.substack.com/pub/davidiweala/p/how-ai-could-transform-farming-in?r=2zpkax&utm_campaign=post-expanded-share&utm_medium=web",
+    },
     {
       title: "What I've Learned Researching Agriculture",
       description:
