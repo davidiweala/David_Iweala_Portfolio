@@ -4,7 +4,7 @@ export const portfolioConfig = {
   // Basic Information
   name: "David K. Iweala",
   title: "Infrastructure / DevOps Engineer",
-  description: "Aspiring founder in agriculture technology, passionate about leveraging technology to revolutionize farming practices and enhance sustainability in the agricultural sector. Also ",
+  description: "Aspiring technology founder passionate about leveraging innovation to transform industries and accelerate economic growth across Africa. My vision is to build technology-driven solutions that address critical challenges in agriculture, finance, healthcare, education, infrastructure, and digital services, creating scalable impact and sustainable development across the continent.",
   location: "Louisville, KY, USA",
 
   // Contact Information
@@ -87,7 +87,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "Aspiring founder in agriculture technology, passionate about leveraging technology to revolutionize farming practices and enhance sustainability in the agricultural sector. Also I’m a graduate student in Computer Science at the University of Louisville (class of 2027) with 3+ years of professional experience in IT infrastructure, DevOps, and enterprise systems, primarily in the banking and financial technology sectors. I specialize in Linux and Windows server administration, cloud platforms (AWS, Azure), monitoring and reliability (Dynatrace, Grafana), CI/CD automation, and enterprise tools such as Office 365, Active Directory, and Microsoft Exchange. ",
+    bio: "Aspiring technology founder passionate about leveraging innovation to transform industries and accelerate economic growth across Africa. My vision is to build technology-driven solutions that address critical challenges in agriculture, finance, healthcare, education, infrastructure, and digital services, creating scalable impact and sustainable development across the continent. I am currently pursuing a Master of Science in Computer Science at the University of Louisville (Class of 2027) and bring over three years of professional experience in IT infrastructure, DevOps, and enterprise systems within the banking and financial technology sectors. My expertise spans Linux and Windows server administration, cloud platforms (AWS and Azure), observability and reliability engineering (Dynatrace, Grafana), CI/CD automation, and enterprise technologies including Microsoft 365, Active Directory, and Exchange. Driven by a passion for innovation, I aim to combine technology, data, artificial intelligence, and cloud computing to solve complex problems, improve operational efficiency, create economic opportunities, and contribute to Africa's digital transformation across both public and private sectors. ",
 
     hobbies: [
       "Coding",
