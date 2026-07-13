@@ -14,7 +14,7 @@ import { buttonVariants } from "@/components/ui/button";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
 
-const projectsPage = () => {
+const blogPage = () => {
   return (
     // BLOG PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
@@ -66,4 +66,4 @@ const projectsPage = () => {
   );
 };
 
-export default projectsPage;
+export default blogPage;

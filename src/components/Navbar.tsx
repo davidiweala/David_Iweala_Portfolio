@@ -54,7 +54,7 @@ const Navbar = () => {
       icon: (
         <FolderGit2 className='h-full w-full ' />
       ),
-      href: '/projects',
+      href: '/blog',
     },
   ];
   const [scrolling, setScrolling] = useState(false);
