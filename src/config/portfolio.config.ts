@@ -110,7 +110,6 @@ export const portfolioConfig = {
     roles: [
       "Founder",
       "Creator",
-      "Student",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -188,35 +187,19 @@ export const portfolioConfig = {
       institution: "Covenant University",
       location: "Ota, Ogun State, Nigeria",
       period: "Aug 2016 - Sep 2021",
-      description:
-        "CGPA: 3.20/5.0"},
+      
+       },
   ],
 
-  // Projects Information
-  projects: [
-    {
-      title: "SmartFarm, An IoT-based Smart Agriculture System",
-      description:
-        "A comprehensive IoT-based smart agriculture system designed to optimize farming practices through real-time monitoring and automation. Key features include automated irrigation control, remote monitoring via a mobile app, and data analytics for informed decision-making. This project aims to revolutionize traditional farming methods by leveraging technology to promote sustainable agriculture and improve food security.",
-      tags: ["Smart Farming", "IoT", "Agriculture Technology", "Sustainability"],
-      link: "https://github.com/davidiweala/Precision_Agriculture",
-    },
-    
-  ],
-
-  services: [
-    {
-      title: "Web Development Services",
-      description:
-        "Professional web development services to create responsive, user-friendly websites and applications.",
-      tags: ["Web Development", "SEO", "Responsive Design"],
-      link: "https://wa.me/message/RG7ISB2Y4U3ZF1",
-    },
-    
-  ],
 
   // More Links Information
   moreLinks: [
+    {
+      title: "The Mind, Innovation, and Building for Impact",
+      description:
+        "On what it actually takes to build something that matters. There’s a version of innovation that happens on stage.",
+      link: "https://open.substack.com/pub/davidiweala/p/the-mind-innovation-and-building?r=2zpkax&utm_campaign=post&utm_medium=web",
+    },
      {
       title: "How AI Could Transform Farming in Africa",
       description:

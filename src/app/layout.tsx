@@ -61,22 +61,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <meta name="google-site-verification" content="7eX_PguUotnmmDfqfJVQIVpiB6b6DVUhhPpgb-JOyzE" />
-      <body suppressHydrationWarning className={`${poppins.variable} ${rubik.variable}`}>
-        {/* <main
-          className={cn(
-            "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-            { "bg-white": "#E6E7EB" }
-          )}
-        > /*/}
-          <main
+      <body
+        suppressHydrationWarning
         className={cn(
-          "flex flex-col lg:flex-row relative break-words min-h-screen items-center justify-between",
-          "pt-20 pb-4 px-4 sm:px-8 md:px-16 lg:px-40",
-          "bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-          { "bg-white": "#E6E7EB" }
+          "bg-gradient-to-b from-slate-900 to-slate-950",
+          poppins.variable,
+          rubik.variable
         )}
+      >
+        <main
+          className={cn(
+            "flex flex-col lg:flex-row relative break-words min-h-screen items-center justify-between",
+            "pt-20 pb-4 px-4 sm:px-8 md:px-16 lg:px-40"
+          )}
         >
           {/* NAVBAR ->  */}
           <Navbar />

@@ -30,7 +30,7 @@ const educationPage = () => {
               y={0}
               x={100}
               delay={0.35 + index * 0.1}
-              className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point"
+              className="relative w-3/4 border-l-4 border-l-border p-4 gap-3 education_point"
             >
               <div className="text-2xl font-rubik max-sm:text-xl">
                 {edu.degree}, <br /> {edu.institution}

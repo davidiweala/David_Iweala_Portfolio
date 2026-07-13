@@ -25,13 +25,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/skills`,
       lastModified: new Date(),
     },
-    {
-      url: `${baseUrl}/services`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-    },
   ];
 }

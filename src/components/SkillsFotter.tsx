@@ -18,8 +18,10 @@ const SkillsFooter: React.FC<MyComponentProps> = ({ items }) => {
           >
             {item.icon && (
               <Image
-                src={item.icon} 
-                alt={item.name ?? ""} 
+                src={item.icon}
+                alt={item.name ?? ""}
+                width={48}
+                height={48}
                 className="w-12 h-12 object-contain"
               />
             )}

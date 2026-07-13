@@ -2,10 +2,9 @@ import { cn } from "@/lib/utils";
 import {
   Facebook,
   Linkedin,
-  Twitter,
-  ExternalLink,
   Github,
 } from "lucide-react";
+import { SiSubstack } from "react-icons/si";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
@@ -19,19 +18,14 @@ const SocialLinks = () => {
       icon: <Facebook />,
     },
     {
-      name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
-      icon: <Twitter />,
-    },
-    {
       name: "Linkedin",
       link: portfolioConfig.socialLinks.linkedin,
       icon: <Linkedin />,
     },
     {
-      name: "External",
+      name: "Substack",
       link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
+      icon: <SiSubstack />,
     },
     {
       name: "Github",
