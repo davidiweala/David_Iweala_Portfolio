@@ -74,7 +74,7 @@ export default function RootLayout({
         <main
           className={cn(
             "flex flex-col lg:flex-row relative break-words min-h-screen items-center justify-between",
-            "pt-20 pb-4 px-4 sm:px-8 md:px-16 lg:px-40"
+            "pt-32 lg:pt-20 pb-4 px-4 sm:px-8 md:px-16 lg:px-40"
           )}
         >
           {/* NAVBAR ->  */}

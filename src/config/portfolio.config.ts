@@ -87,7 +87,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "Aspiring technology founder passionate about leveraging innovation to transform industries and accelerate economic growth across Africa. My vision is to build technology-driven solutions that address critical challenges in agriculture, finance, healthcare, education, infrastructure, and digital services, creating scalable impact and sustainable development across the continent. I am currently pursuing a Master of Science in Computer Science at the University of Louisville (Class of 2027) and bring over three years of professional experience in IT infrastructure, DevOps, and enterprise systems within the banking and financial technology sectors. My expertise spans Linux and Windows server administration, cloud platforms (AWS and Azure), observability and reliability engineering (Dynatrace, Grafana), CI/CD automation, and enterprise technologies including Microsoft 365, Active Directory, and Exchange. Driven by a passion for innovation, I aim to combine technology, data, artificial intelligence, and cloud computing to solve complex problems, improve operational efficiency, create economic opportunities, and contribute to Africa's digital transformation across both public and private sectors. ",
+    bio: "Cloud and infrastructure engineer (3+ years, fintech). Drove uptime from 65% to 99.2% at Zenith Bank, cut deployment time 40% via CI/CD at Tramango. AWS/GCP/Azure. Founder building a commuter carpooling platform and an AI precision-agriculture platform for Africa. ",
 
     hobbies: [
       "Coding",
