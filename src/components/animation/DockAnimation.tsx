@@ -21,6 +21,18 @@ import {
 } from 'react';
 import { cn } from '@/lib/utils';
 
+function useCanHover() {
+  const [canHover, setCanHover] = useState(false);
+  useEffect(() => {
+    const mql = window.matchMedia('(hover: hover) and (pointer: fine)');
+    setCanHover(mql.matches);
+    const listener = (e: MediaQueryListEvent) => setCanHover(e.matches);
+    mql.addEventListener('change', listener);
+    return () => mql.removeEventListener('change', listener);
+  }, []);
+  return canHover;
+}
+
 const DOCK_HEIGHT = 128;
 const DEFAULT_MAGNIFICATION = 80;
 const DEFAULT_DISTANCE = 150;
@@ -82,6 +94,7 @@ function Dock({
 }: DockProps) {
   const mouseX = useMotionValue(Infinity);
   const isHovered = useMotionValue(0);
+  const canHover = useCanHover();
 
   const maxHeight = useMemo(() => {
     return Math.max(DOCK_HEIGHT, magnification + magnification / 2 + 4);
@@ -99,14 +112,22 @@ function Dock({
       className='mx-0 sm:mx-2 flex max-w-full items-end overflow-x-auto'
     >
       <motion.div
-        onMouseMove={({ pageX }) => {
-          isHovered.set(1);
-          mouseX.set(pageX);
-        }}
-        onMouseLeave={() => {
-          isHovered.set(0);
-          mouseX.set(Infinity);
-        }}
+        onMouseMove={
+          canHover
+            ? ({ pageX }) => {
+                isHovered.set(1);
+                mouseX.set(pageX);
+              }
+            : undefined
+        }
+        onMouseLeave={
+          canHover
+            ? () => {
+                isHovered.set(0);
+                mouseX.set(Infinity);
+              }
+            : undefined
+        }
         className={cn(
           'mx-auto flex w-fit gap-1.5 sm:gap-4 rounded-2xl bg-gray-50 px-4 dark:bg-neutral-900',
           className
@@ -149,8 +170,6 @@ function DockItem({ children, className }: DockItemProps) {
       style={{ width }}
       onHoverStart={() => isHovered.set(1)}
       onHoverEnd={() => isHovered.set(0)}
-      onFocus={() => isHovered.set(1)}
-      onBlur={() => isHovered.set(0)}
       className={cn(
         'relative inline-flex items-center justify-center',
         className
