@@ -4,8 +4,8 @@ export const portfolioConfig = {
   // Basic Information
   name: "David K. Iweala",
   title: "Infrastructure / DevOps Engineer",
-  description: "Aspiring technology founder passionate about leveraging innovation to transform industries and accelerate economic growth across Africa. My vision is to build technology-driven solutions that address critical challenges in agriculture, finance, healthcare, education, infrastructure, and digital services, creating scalable impact and sustainable development across the continent.",
-  location: "Louisville, KY, USA",
+  description: "Cloud and infrastructure engineer (3+ years, fintech). Drove uptime from 65% to 99.2% at Zenith Bank, cut deployment time 40% via CI/CD at Tramango. AWS/GCP/Azure. Founder building a commuter carpooling platform and an AI precision-agriculture platform for Africa.",
+  location: "USA",
 
   // Contact Information
   email: "iwealadavid@gmail.com", // Replace with actual email if available
